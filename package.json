@@ -1,0 +1,13 @@
+{
+  "name": "office-cleaning-rotation",
+  "version": "1.0.0",
+  "description": "Automated office cleaning duty rotation with Slack integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0"
+  }
+}
